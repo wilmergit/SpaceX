@@ -1,0 +1,21 @@
+<!ELEMENT data (employees, projects, facilities)>
+<!ELEMENT employees (employee+)>
+<!ATTLIST employee id CDATA #REQUIRED>
+<!ATTLIST employee name CDATA #REQUIRED>
+<!ATTLIST employee dni CDATA #REQUIRED>
+<!ELEMENT employee (seniority, charge, workingOn)>
+<!ELEMENT seniority (#PCDATA)>
+<!ATTLIST seniority timeUnit CDATA #REQUIRED>
+<!ELEMENT charge (#PCDATA)>
+<!ELEMENT workingOn (#PCDATA)>
+<!ELEMENT projects (project+)>
+<!ELEMENT project (description, peopleAtWork)>
+<!ATTLIST project codeName CDATA #REQUIRED>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT peopleAtWork (#PCDATA)>
+<!ELEMENT facilities (facility+)>
+<!ELEMENT facility (usage, dimension)>
+<!ATTLIST facility location CDATA #REQUIRED>
+<!ATTLIST dimension area CDATA #REQUIRED>
+<!ELEMENT usage (#PCDATA)>
+<!ELEMENT dimension (#PCDATA)>

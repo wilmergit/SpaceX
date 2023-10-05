@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE data SYSTEM "spacex.dtd">
+<data>
+    <employees>
+        <employee id = "20123" name = "Carlos Gonzalez" dni = "42227801P">
+            <seniority timeUnit = "months">24</seniority>
+            <charge>Head of design</charge>
+            <workingOn>Falcon9</workingOn>
+        </employee>
+        <employee id = "14275" name = "William Carrillo" dni = "28339140K">
+            <seniority timeUnit = "months">5</seniority>
+            <charge>Sales Department Employee</charge>
+            <workingOn>Dragon</workingOn>
+        </employee>
+        <employee id = "51902" name = "Elon Musk" dni = "73218329L">
+            <seniority timeUnit = "year">21</seniority>
+            <charge>CEO</charge>
+            <workingOn>Everything</workingOn>
+        </employee>
+    </employees>
+    <projects>
+        <project codeName = "Falcon 9">
+            <description>Reusable Rocket</description>
+            <peopleAtWork>20.320</peopleAtWork>
+        </project>
+        <project codeName = "Falcon Heavy">
+            <description>World's most powerful operational rocket</description>
+            <peopleAtWork>15.210</peopleAtWork>
+        </project>
+        <project codeName = "Dragon">
+            <description>Sending humans and cargo into space</description>
+            <peopleAtWork>29.000</peopleAtWork>
+        </project>
+        <project codeName = "StarLink">
+            <description>Reliable high-speed internet, wherever you live</description>
+            <peopleAtWork>8.500</peopleAtWork>
+        </project>
+    </projects>
+    <facilities>
+        <facility location = "California">
+            <usage>Build Facility</usage>
+            <dimension area = "square-meters">7000</dimension>
+        </facility>
+        <facility location = "Texas">
+            <usage>Testing Facility</usage>
+            <dimension area = "square-meters">15000</dimension>
+        </facility>
+        <facility location = "FLorida">
+            <usage>Launch Complex</usage>
+            <dimension area = "square-meters">10000</dimension>
+        </facility>
+    </facilities>
+</data>
